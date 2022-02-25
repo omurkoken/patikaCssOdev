@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css çalışma</title>
+
+    <link rel="stylesheet" href="css/ornek.css">
+</head>
+<body>
+    <container>
+      <div>
+            <center>
+                <h1 style="color:#D82148">Müzik Dükkanım</h1>
+            </center>
+
+        </div>
+
+        <ul class="menu">
+            <li><a class="aktif" href="#">Anasayfa</a></li>
+            <li><a href="Ürünlerimiz.html">Ürünlerimiz</a></li>
+            <li><a href="Hakkımızda.html">Hakkımızda</a></li>
+        </ul>
+
+        <div class="head-title">
+            <h2>Anasayfa</h2>
+        </div>
+
+        <p>Müzik Dükkanım sitemize hoş geldiniz! Bu sitede çeşitli müzik aletlerini bulabilirsiniz. Uygun fiyatlarımız
+            ve kaliteli ürünlerimiz içiçn Ürünlerimiz sayfamızı ziyaret edebilirsiniz</p>
+
+        <p style="color:#af6e0d ; text-align:center">Sitemizde Bulunan Müzik Aletleri</p>
+
+        <div class="main-tools">
+            <ul>
+                <li class="proTitle">Gitar</li>
+                <li class="proTitle">Davul</li>
+                <li class="proTitle">Piyano</li>
+                <li class="proTitle">Keman</li>
+
+            </ul>
+        </div>
+    </container>
+</body>
+</html>
+/**************************ÜRÜNLERİMİZ*********************************/
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/ornek.css">
+</head>
+
+<body>
+    <main class="container">
+        <div>
+            <center>
+                <h1 style="color:#D82148">Müzik Dükkanım</h1>
+            </center>
+        </div>
+        <ul class="menu">
+            <li><a href="Anasayfa.html">Anasayfa</a></li>
+            <li><a href="#">Ürünlerimiz</a></li>
+            <li><a href="Hakkımızda.html">Hakkımızda</a></li>
+        </ul>
+        <div class="head-title">
+            <h2>Ürünlerimiz</h2>
+        </div>
+        <div class="product"><img src="img/images (1).jpg" alt="Davul"></div>
+        <div class="product-info">Davul 1</div>
+        <div class="product"><img src="img/images (2).jpg" alt="Davul"></div>
+        <div class="product-info">Davul 2</div>
+        <div class="product"><img src="img/images.jpg" alt="Gitar"></div>
+        <div class="product-info">Gitar 1</div>
+        <div class="product"><img src="img/indir (1).jpg" alt="Gitar"></div>
+        <div class="product-info">Gitar 2</div>
+        <div class="product"><img src="img/indir (3).jpg" alt="Keman"></div>
+        <div class="product-info">Keman 1</div>
+        <div class="product"><img src="img/images (4).jpg" alt="Keman"></div>
+        <div class="product-info">Keman 2</div>
+        <div class="product"><img src="img/indir.jpg" alt="Gitar"></div>
+        <div class="product-info">Gitar 3</div>
+    </main>
+</body>
+</html>
+
+/***********************************HAKKIMIZDA********************************/
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/ornek.css">
+</head>
+
+<body>
+
+    <container>
+        <div>
+            <center>
+                <h1 style="color:#D82148">Müzik Dükkanım</h1>
+            </center>
+
+        </div>
+
+        <ul class="menu">
+            <li><a class="aktif" href="Anasayfa.html">Anasayfa</a></li>
+            <li><a href="Ürünlerimiz.html">Ürünlerimiz</a></li>
+            <li><a href="#">Hakkımızda</a></li>
+        </ul>
+
+        <div class="head-title">
+            <h2>Hakkımızda</h2>
+        </div>
+        <p>
+            Müzik Dükkanım 2021 yılında Cengiz C. Matracı ve Furkan Tolgfa Yüce tarafından kurulmuştur.Çeşitli müzik
+            aletlerini uygun fiyatlarla buluşturmak için kurulmuştur.
+        </p>
+        <h3>Vizyonumuz</h3>
+        <p>İnsanlara kaliteli müzik aletleri sağlamak. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Cupiditate iste labore atque alias ut non eligendi tenetur doloribus. Autem hic dolorem id aperiam, optio
+            facere eos rerum impedit laborum aliquam?
+        <p>
+        <h3>Misyonumuz</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non obcaecati optio illo aliquam deserunt eligendi
+            dicta? Excepturi doloribus quo iusto dicta unde perspiciatis soluta nesciunt alias, corrupti necessitatibus
+            recusandae nihil? </p>
+
+    </container>
+</body>
+
+</html>
+
+/********************************* C S S ***************************************/
+
+/**************layout*****************/
+
+/* class-> .text-red{} */
+/* id----> #id-bilgisi{} */
+
+.menu{
+    text-align:center; 
+    width : 100%; 
+    list-style: none; 
+    padding:0; 
+   }
+
+  .menu li{
+    padding:0 10px 0 0; 
+    float:none; 
+    display:inline-block;
+    list-style-position: inside;
+   }
+   .menu li a{
+       display: block;
+       text-align: center;
+   }
+
+   .product-info{
+    list-style-position: inside
+   }
+
+   .head-title{
+    margin: auto;
+       text-align: center;
+   }
+
+   h2{
+    color: blueviolet;
+   }
+
+   .main-tools ul{
+       text-align: center;
+       list-style-position: inside
+   } 
+    h3{
+    color: rgb(151, 116, 1);
+}
+    .product,.product-info{
+     text-align: center;
+
+ }
